@@ -12,3 +12,10 @@ $(function(){
         $(this).parent('label').siblings('span').html(filename);
     });
 });
+
+$('.hamburguer').click(function(e) {
+    $('.wrap').toggleClass('mobileView');
+    $('.responsiveNav').toggleClass('move');
+    $(this).toggleClass('converse');
+
+});

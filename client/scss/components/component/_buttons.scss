@@ -48,7 +48,7 @@ input[type="reset"] {
 	@include transition($btn-transition);
 	@include border-radius($btn-border-radius);
 	display: $btn-display;
-	padding: $btn-padding;	
+	padding: 10px 30px;	
 	font-family: $btn-font-family;
 	font-size: $btn-font-size;
 	line-height: $btn-line-height;

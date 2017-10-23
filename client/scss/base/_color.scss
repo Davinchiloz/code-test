@@ -4,8 +4,9 @@
 
 // SETUP
 //// Base
-$primary: #4A90E2!default;
-$secondary: #0E1C2D!default;
+$primary: #0E3757!default;
+$secondary: #F56A75!default;
+$third: #8D9CA8!default;
 $black: #000000!default;
 $darkgrey: #9B9B9B!default;
 $lightgrey: #EEEEEE!default;
@@ -32,6 +33,7 @@ $line: #D8D8D8!default;
 $colors: (
 	primary: $primary,
 	secondary: $secondary,
+	third: $third,
 	black: $black,
 	darkgrey: $darkgrey,
 	lightgrey: $lightgrey,
@@ -56,9 +58,9 @@ $colors: (
 // Color Helpers
 //// Links
 a {
-	color: $primary;
+	color: $secondary;
     text-decoration: none;    
-    &.link-secondary {color: $secondary;}
+    &.link-secondary {color: $primary;}
 	a:link a:visited {color: inherit;}
 }
 //// Undo link styles for placeholder links/named anchors (without href)
